@@ -8,6 +8,8 @@ module.exports = {
         darkPeach: '#FBD3B4',
         darkBrown: '#594F43',
         mahogany: '#844E4E',
+        black: '#403930',
+        white: '#F3F2FF',
       }
     },
     fontFamily: {

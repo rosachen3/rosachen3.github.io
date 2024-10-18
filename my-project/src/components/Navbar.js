@@ -10,7 +10,7 @@ export default function Navbar() {
     return (
         <div>
             
-            <img src={logo} className="w-1/4"/>
+            <img src={logo} className="w-1/3"/>
             <div className="flex mt-6 justify-between items-center">
                 <ul className="flex font-semibold gap-8">
                     <li><a href="#">Home</a></li>

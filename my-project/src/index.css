@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap')
+
 @config "../tailwind.config.js";
 @tailwind base;
 @tailwind components;
@@ -14,4 +16,12 @@ body {
 button {
   font-family: 'Work Sans', sans-serif;
   font-size: 1.25rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Eczar', serif;
+  color: #403930;
+  font-weight: 550;
+  line-height: 6rem;
 }
