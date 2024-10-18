@@ -1,5 +1,5 @@
 import Icons from "./landing/Icons.js"
-import SmallButton from "./SmallButton.js"
+import Button from "./Button.js"
 
 import logo from "../assets/Logo.png"
 import github from "../assets/icons/Github.png"
@@ -23,7 +23,7 @@ export default function Navbar() {
                     <Icons src={github} alt="github"/>
                     <Icons src={linkedin} alt="linkedin"/>
                     <Icons src={outlook} alt="outlook"/>
-                    <SmallButton text="Let's Connect"/>
+                    <Button text="Let's Connect"/>
                 </div>
             </div>
 
