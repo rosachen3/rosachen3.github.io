@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.25rem;
+  font-weight: 500;
   color: #594F43;
 }
 
@@ -18,10 +19,18 @@ button {
   font-size: 1.25rem;
 }
 
-h1 {
-  font-size: 5rem;
+h1, h2 {
   font-family: 'Eczar', serif;
   color: #403930;
-  font-weight: 550;
+  font-weight: 600;
+}
+
+
+h1 {
+  font-size: 5rem;
   line-height: 6rem;
+}
+
+h2 {
+  font-size: 2.5rem;
 }

@@ -8,7 +8,7 @@ import outlook from "../assets/icons/Outlook.png"
 
 export default function Navbar() {
     return (
-        <div>
+        <div className="pt-20 px-20">
             
             <img src={logo} className="w-1/3"/>
             <div className="flex mt-6 justify-between items-center">

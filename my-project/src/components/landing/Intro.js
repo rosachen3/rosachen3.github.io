@@ -5,7 +5,7 @@ import Download from "../../assets/icons/Download.png"
 
 export default function Intro() {
     return (
-        <div className="my-16 flex">
+        <div className="my-16 flex p-20">
             
             <div className="w-3/5">
                 <div>

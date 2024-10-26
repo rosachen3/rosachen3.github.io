@@ -10,6 +10,8 @@ module.exports = {
         mahogany: '#844E4E',
         black: '#403930',
         white: '#F3F2FF',
+        gradientOrange: '#FFDDBF',
+        gradientPurple: '#DDD9FF',
       }
     },
     fontFamily: {
