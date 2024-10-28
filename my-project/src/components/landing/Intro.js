@@ -20,13 +20,13 @@ export default function Intro() {
                         padding="medium" 
                         borderColour="border-transparent" 
                         textColour="text-white"
-                        icon={ScrollDown}
+                        iconRight={ScrollDown}
                     />
                         
                     <Button 
                         text="Resume"
                         padding="medium"
-                        icon={Download}
+                        iconRight={Download}
                         />
                 </div>
             </div>
