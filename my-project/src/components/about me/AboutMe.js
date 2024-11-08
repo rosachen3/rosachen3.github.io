@@ -2,7 +2,7 @@ import girlPhone from "../../assets/girl-with-phone.png"
 
 export default function AboutMe() {
     return(
-        <div className="bg-gradient-to-r from-gradientPurple to-gradientOrange flex items-center p-20 gap-12">
+        <div className="bg-gradientOrange flex items-center p-20 gap-12">
             <img src={girlPhone} className="w-1/3 h-1/3"/>
             
             <div className="border-dashed border-4 border-mahogany rounded-lg p-14">

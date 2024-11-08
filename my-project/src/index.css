@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap');
 
 @config "../tailwind.config.js";
 @tailwind base;
@@ -33,4 +33,13 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
 }
