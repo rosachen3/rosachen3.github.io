@@ -33,7 +33,8 @@ module.exports = {
         gradientPurple: '#DDD9FF',
         beige: '#FFF8F2',
         lightPurple: '#F2E6E3',
-        blue: '#4E5E80'
+        blue: '#4E5E80',
+        slate: '#4D5566'
       }
     },
     fontFamily: {
