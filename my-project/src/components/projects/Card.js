@@ -5,10 +5,10 @@ export default function Card() {
         <div>
             {   
                 cardInfo.map( (project, index) => (
-                    <div className="bg-beige flex items-center mb-16 rounded-2xl px-24 h-80 gap-8">
+                    <div className="bg-beige flex items-center mb-16 rounded-2xl px-20 h-96 gap-8">
                         <div>
                             <h3>{project.title}</h3>
-                            
+                            <p>{project.paragraph}</p>  
                             {/* Tech Stack Tags */}
                             <div className="flex gap-4">
                             {   
@@ -17,13 +17,18 @@ export default function Card() {
                                 ))
                             }
                             </div>
-
-                            <p>{project.paragraph}</p>  
+                            
+                            {/* Links */}
+                            <div className="flex gap-8 my-4">
+                                <a href="#" className="text-2xl text-blue font-semibold">Live Preview</a>
+                                <a href ="#" className="text-2xl text-blue font-semibold">Github Repository</a>
+                            </div>
                         </div>
                         <img src={project.url} className="h-full"/>  
                     </div>
                 ))
             }
+
         </div>
     )
 }

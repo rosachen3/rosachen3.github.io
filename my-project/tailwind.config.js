@@ -32,7 +32,8 @@ module.exports = {
         gradientOrange: '#FFDDBF',
         gradientPurple: '#DDD9FF',
         beige: '#FFF8F2',
-        lightPurple: '#F2E6E3'
+        lightPurple: '#F2E6E3',
+        blue: '#4E5E80'
       }
     },
     fontFamily: {
