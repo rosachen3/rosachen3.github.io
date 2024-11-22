@@ -4,6 +4,7 @@ export default function Button({
     borderColour="border-mahogany", 
     padding="py-2 px-4", 
     textColour="text-mahogany", 
+    clickHandler,
     iconLeft=false,
     iconRight=false}) {    
 
@@ -11,7 +12,7 @@ export default function Button({
 
     return(
         <div>
-            <button className={`flex gap-3 ${bgColour} ${borderColour} border-2 font-semibold ${padding} rounded-2xl ${textColour}`}>
+            <button onClick={clickHandler} className={`flex gap-3 ${bgColour} ${borderColour} border-2 font-semibold ${padding} rounded-2xl ${textColour}`}>
                 {iconLeft && <img src={iconLeft} className="w-7 h-7"/>}
                 {text}
                 {iconRight && <img src={iconRight} className="w-7 h-7"/>}

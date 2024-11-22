@@ -9,6 +9,7 @@ const images = [
         title: "Instructional Assistant Intern",
         date: "Sept 2024 - Present",
         url: McMaster,
+        back: "Provide comprehensive three hour lectures on a weekly basis to over 300 first year engineering students, introducing new concepts related to engineering design, design communication, graphic design in Inventor, computation, and material sciences."
     },
     {
         id: 2,
