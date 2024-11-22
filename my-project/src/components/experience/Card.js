@@ -21,26 +21,30 @@ export default function Card({title, url, date, back}) {
       >
           
       {/* Front Side */}
-      <div className="w-full h-full absolute rounded-3xl overflow-hidden bg-beige p-6 backface-hidden flex flex-col gap-4 justify-center">
+      <div className="w-full h-full absolute rounded-3xl overflow-hidden bg-beige p-10 backface-hidden flex flex-col gap-6 justify-center">
           <img src={url} alt={title} />
-          <h4>{title}</h4>
+          <h4 className="h-14">{title}</h4>
           <h5>{date}</h5>
-          <Button 
-              text={"Learn More"} 
-              clickHandler={handleFlip} 
-              iconRight={forwardArrow}
-          />
+          <div className="mt-auto">
+            <Button 
+                text={"Learn More"} 
+                clickHandler={handleFlip} 
+                iconRight={forwardArrow}
+            />
+          </div>
       </div>
           
       {/* Back Side */}
-      <div className="absolute rotate-y-180 w-full h-full bg-beige rounded-3xl overflow-hidden p-6 space-y-5 backface-hidden flex flex-col justify-center">
-          <h3 className="text-3xl">// ROLE OVERVIEW</h3>
-          <p className="text-lg">{back}</p>
-          <Button 
-              text={"Back"} 
-              clickHandler={handleFlip} 
-              iconRight={backArrow}
-          />
+      <div className="absolute rotate-y-180 w-full h-full bg-beige rounded-3xl p-10 backface-hidden flex flex-col justify-center gap-3">
+          <h3 className="text-2xl">// ROLE OVERVIEW</h3>
+          <p className="text-base">{back}</p>
+          <div className="mt-auto">
+            <Button 
+                text={"Back"} 
+                clickHandler={handleFlip} 
+                iconRight={backArrow}
+            />
+          </div>
       </div>
     </div>
   </div>
