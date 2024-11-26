@@ -13,12 +13,13 @@ function App() {
     <div className="bg-peach">
       <Navbar />
       <Intro />
+      {/*
       <AboutMe />
       <MySkills />
       <Projects />
       <Experience />
       <Conclusion />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

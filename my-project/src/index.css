@@ -9,23 +9,23 @@
 body {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
-  font-size: 1.25rem;
-  font-weight: 500;
+  /* font-size: 1.25rem; */
+  /* font-weight: 500; */
   color: #594F43;
 }
 
 button {
   font-family: 'Work Sans', sans-serif;
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
 }
 
 h1, h2 {
   font-family: 'Eczar', serif;
   color: #403930;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
-
+/* 
 h1 {
   font-size: 5rem;
   line-height: 6rem;
@@ -51,4 +51,4 @@ h5 {
 
 p {
   font-size: 1.5rem;
-}
+} */

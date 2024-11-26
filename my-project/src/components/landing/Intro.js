@@ -5,19 +5,18 @@ import Download from "../../assets/icons/Download.png"
 
 export default function Intro() {
     return (
-        <div className="my-16 flex p-20">
+        <div className="flex flex-col text-center p-10 md:text-left md:flex-row lg:p-20">
             
-            <div className="w-3/5">
-                <div>
+            <div className="md:w-3/5">
+                <div className="flex flex-col items-center md:block">
                     <Button text="👋 Welcome to my Portfolio" bgColour="bg-darkPeach" borderColour="border-transparent" />
-                    <h1 className="my-10">I'm Rosa, <br/> An Aspiring Full-<br/>Stack Developer</h1>
+                    <h1 className="font-semibold leading-normal text-4xl mt-6 md:my-10 s md:text-4xl lg:text-7xl">I'm Rosa, <br/> An Aspiring Full-<br/>Stack Developer</h1>
                 </div>
                 
-                <div className="flex gap-4">
+                <div className="flex my-4 gap-4 justify-center md:justify-start">
                     <Button 
                         text="About Me" 
-                        bgColour="bg-mahogany" 
-                        padding="medium" 
+                        bgColour="bg-mahogany"  
                         borderColour="border-transparent" 
                         textColour="text-white"
                         iconRight={ScrollDown}
@@ -25,12 +24,11 @@ export default function Intro() {
                         
                     <Button 
                         text="Resume"
-                        padding="medium"
                         iconRight={Download}
                         />
                 </div>
             </div>
-            <img src={girlSplash} className="size-2/5 ml-auto"/>
+            <img src={girlSplash} className="flex self-center w-3/4 sm:w-1/2 md:w-1/3"/>
 
         </div>
     )
