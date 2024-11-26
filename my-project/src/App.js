@@ -13,9 +13,8 @@ function App() {
     <div className="bg-peach">
       <Navbar />
       <Intro />
-      {/*
       <AboutMe />
-      <MySkills />
+      {/* <MySkills />
       <Projects />
       <Experience />
       <Conclusion />
