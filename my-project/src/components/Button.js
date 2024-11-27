@@ -10,7 +10,7 @@ export default function Button({
 
     return(
         <div className={`${text==="Let's Connect" ? "hidden md:inline-block" : ""}`}>
-            <button onClick={clickHandler} className={`flex gap-2 md:gap-4 ${bgColour} ${borderColour} border-2 font-semibold md:font-bold text-sm ${padding} lg:text-xl rounded-2xl ${textColour} items-center`}>
+            <button onClick={clickHandler} className={`flex gap-2 md:gap-4 ${bgColour} ${borderColour} border-2 font-semibold text-sm ${padding} lg:text-xl rounded-2xl ${textColour} items-center`}>
                 {iconLeft && <img src={iconLeft} className="w-7 h-7"/>}
                 {text}
                 {iconRight && <img src={iconRight} className="w-7 h-7"/>}

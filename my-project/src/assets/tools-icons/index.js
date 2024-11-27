@@ -1,12 +1,12 @@
-import canva from "./canva.png"
-import figma from "./figma.png"
-import git from "./git.png"
-import github from "./github.png"
-import intellij from "./intellij.png"
-import jupyter from "./jupyter.png"
-import matlab from "./matlab.png"
-import vscode from "./vscode.png"
+import Canva from "./canva.png"
+import Figma from "./figma.png"
+import Git from "./git.png"
+import Github from "./github.png"
+import Intellij from "./intellij.png"
+import Jupyter from "./jupyter.png"
+import Matlab from "./matlab.png"
+import VScode from "./vscode.png"
 
 export default {
-    canva, figma, git, github, intellij, jupyter, matlab, vscode
+    Canva, Figma, Git, Github, Intellij, Jupyter, Matlab, VScode
 }

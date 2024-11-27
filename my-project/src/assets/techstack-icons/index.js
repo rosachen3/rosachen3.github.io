@@ -1,11 +1,11 @@
-import c from "./c.png"
-import css from "./css.png"
-import html from "./html.png"
-import java from "./java.png"
-import js from "./js.png"
-import python from "./python.png"
-import reactjs from "./reactjs.png"
+import C from "./c.png"
+import CSS from "./css.png"
+import HTML from "./html.png"
+import Java from "./java.png"
+import JS from "./js.png"
+import Python from "./python.png"
+import ReactJS from "./reactjs.png"
 
 export default {
-    c, css, html, java, js, python, reactjs
+    C, CSS, HTML, Java, JS, Python, ReactJS
 }

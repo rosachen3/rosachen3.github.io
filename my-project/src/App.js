@@ -14,8 +14,8 @@ function App() {
       <Navbar />
       <Intro />
       <AboutMe />
-      {/* <MySkills />
-      <Projects />
+      <MySkills />
+      {/*<Projects />
       <Experience />
       <Conclusion />
       <Footer /> */}
