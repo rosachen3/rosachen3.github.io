@@ -9,7 +9,7 @@ export default function MySkills() {
 
     return (
         <div className="flex flex-col p-10 items-center lg:p-20">
-            <h2 className="mr-auto text-2xl font-medium md:text-4xl">My Skills</h2>
+            <h2 className="mr-auto text-2xl font-medium lg:text-4xl">My Skills</h2>
             <p className="mr-auto my-8 md:text-xl">Here are some of the skills I am working on</p>
             {/*Tech Stack */}
             

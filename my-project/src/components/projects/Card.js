@@ -5,26 +5,28 @@ export default function Card() {
         <div>
             {   
                 cardInfo.map( (project, index) => (
-                    <div className="bg-beige flex items-center mb-16 rounded-2xl px-20 h-96 gap-8">
-                        <div>
-                            <h3>{project.title}</h3>
-                            <p>{project.paragraph}</p>  
+                    <div className="bg-beige flex flex-col items-center mb-16 lg:flex-row rounded-2xl px-8 lg:px-20 lg:h-96 lg:gap-8">
+                        <div className="flex flex-col pt-10 lg:pt-0">
+                            <h3 className="text-xl text-center font-semibold lg:text-left lg:text-2xl">{project.title}</h3>
+                            <p className="my-4 lg:text-xl text-center lg:text-left">{project.paragraph}</p>  
                             {/* Tech Stack Tags */}
-                            <div className="flex gap-4">
+                            <div className="flex justify-center gap-2 lg:mb-0 lg:justify-start lg:gap-4">
                             {   
                                 project.techStack.map((tech, idx) => (
-                                    <div className="bg-lightBrown inline p-2 rounded-xl text-white font-normal my-5"> {tech} </div>
+                                    <div className="bg-lightBrown inline p-2 text-xs rounded-xl text-white font-medium md:text-base lg:text-lg"> {tech} </div>
                                 ))
                             }
                             </div>
                             
                             {/* Links */}
-                            <div className="flex gap-8 my-4">
-                                <a href="#" className="text-2xl text-blue font-semibold">Live Preview</a>
-                                <a href ="#" className="text-2xl text-blue font-semibold">Github Repository</a>
+                            <div className="flex justify-center my-6 gap-3 lg:justify-start lg:gap-8 lg:my-8">
+                                <a href="#" className="lg:text-xl text-blue font-semibold">Live Preview</a>
+                                <a href ="#" className="lg:text-xl text-blue font-semibold">Github Repository</a>
                             </div>
                         </div>
-                        <img src={project.url} className="h-full"/>  
+                        <div className="flex-shrink-0 w-full lg:w-1/2 h-auto">
+                            <img src={project.url} className="w-full h-auto" />
+                        </div> 
                     </div>
                 ))
             }
