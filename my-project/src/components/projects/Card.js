@@ -5,7 +5,7 @@ export default function Card() {
         <div>
             {   
                 cardInfo.map( (project, index) => (
-                    <div className="bg-beige flex flex-col items-center mb-16 lg:flex-row rounded-2xl px-8 lg:px-20 lg:h-96 lg:gap-8">
+                    <div className="bg-beige flex flex-col items-center justify-between mb-16 lg:flex-row rounded-2xl px-8 lg:px-20 lg:h-96 lg:gap-8" >
                         <div className="flex flex-col pt-10 lg:pt-0">
                             <h3 className="text-xl text-center font-semibold lg:text-left lg:text-2xl">{project.title}</h3>
                             <p className="my-4 lg:text-xl text-center lg:text-left">{project.paragraph}</p>  
@@ -24,8 +24,8 @@ export default function Card() {
                                 <a href ="#" className="lg:text-xl text-blue font-semibold">Github Repository</a>
                             </div>
                         </div>
-                        <div className="flex-shrink-0 w-full lg:w-1/2 h-auto">
-                            <img src={project.url} className="w-full h-auto" />
+                        <div className="flex flex-shrink-0 justify-center lg:w-1/2 h-full">
+                            <img src={project.url} className="h-auto" />
                         </div> 
                     </div>
                 ))

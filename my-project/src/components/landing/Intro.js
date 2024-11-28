@@ -10,7 +10,7 @@ export default function Intro() {
             <div className="md:w-3/5">
                 <div className="flex flex-col items-center md:block">
                     <Button text="👋 Welcome to my Portfolio" bgColour="bg-darkPeach" borderColour="border-transparent" />
-                    <h1 className="font-semibold leading-normal text-4xl mt-6 md:my-10 s md:text-4xl lg:text-7xl">I'm Rosa, <br/> An Aspiring Full-<br/>Stack Developer</h1>
+                    <h1 className="font-semibold leading-normal text-4xl mt-6 md:my-10 s md:text-4xl lg:text-7xl lg:leading-snug">I'm Rosa, <br/> An Aspiring Full-<br/>Stack Developer</h1>
                 </div>
                 
                 <div className="flex my-4 gap-4 justify-center md:justify-start">
