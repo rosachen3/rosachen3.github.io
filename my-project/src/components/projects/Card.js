@@ -20,12 +20,14 @@ export default function Card() {
                             
                             {/* Links */}
                             <div className="flex justify-center my-6 gap-3 lg:justify-start lg:gap-8 lg:my-8">
-                                <a href="#" className="lg:text-xl text-blue font-semibold">Live Preview</a>
-                                <a href ="#" className="lg:text-xl text-blue font-semibold">Github Repository</a>
+                                {project.previewUrl ? 
+                                    <a href={project.previewUrl} target="_blank" className="lg:text-xl text-blue font-semibold">Live Preview</a> : ""
+                                }
+                                <a href ={project.gitRepo} target="_blank" className="lg:text-xl text-blue font-semibold">Github Repository</a>
                             </div>
                         </div>
                         <div className="flex flex-shrink-0 justify-center lg:w-1/2 h-full">
-                            <img src={project.url} className="h-auto" />
+                            <img src={project.imgUrl} className="h-auto" />
                         </div> 
                     </div>
                 ))

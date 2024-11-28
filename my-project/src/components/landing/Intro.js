@@ -2,10 +2,12 @@ import Button from "../Button.js"
 import girlSplash from "../../assets/girl-with-hand-on-face.png"
 import ScrollDown from "../../assets/icons/ScrollDown.png"
 import Download from "../../assets/icons/Download.png"
+import Resume from "../../assets/RosaChen_Resume.pdf"
+import { Link } from "react-scroll"
 
 export default function Intro() {
     return (
-        <div className="flex flex-col text-center p-10 md:text-left md:flex-row lg:p-20">
+        <div id="home" className="flex flex-col text-center p-10 md:text-left md:flex-row lg:p-20">
             
             <div className="md:w-3/5">
                 <div className="flex flex-col items-center md:block">
@@ -14,18 +16,22 @@ export default function Intro() {
                 </div>
                 
                 <div className="flex my-4 gap-4 justify-center md:justify-start">
-                    <Button 
-                        text="About Me" 
-                        bgColour="bg-mahogany"  
-                        borderColour="border-transparent" 
-                        textColour="text-white"
-                        iconRight={ScrollDown}
-                    />
-                        
-                    <Button 
-                        text="Resume"
-                        iconRight={Download}
+                    <Link to="aboutme" spy={true} smooth={true} offset={0} duration={600}>
+                        <Button 
+                            text="About Me" 
+                            bgColour="bg-mahogany"  
+                            borderColour="border-transparent" 
+                            textColour="text-white"
+                            iconRight={ScrollDown}
                         />
+                    </Link>
+                        
+                    <a href={Resume} download="Resume" target="_blank">
+                        <Button 
+                            text="Resume"
+                            iconRight={Download}
+                        />
+                    </a>
                 </div>
             </div>
             <img src={girlSplash} className="flex self-center w-3/4 sm:w-1/2 md:w-1/3"/>
