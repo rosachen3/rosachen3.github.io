@@ -29,19 +29,14 @@ module.exports = {
         lightBrown: '#BC9C99',
         black: '#403930',
         white: '#F3F2FF',
-        gradientOrange: '#FFDDBF',
-        gradientPurple: '#DDD9FF',
+        orange: '#FFDDBF',
         beige: '#FFF8F2',
-        lightPurple: '#F2E6E3',
         blue: '#4E5E80',
         slate: '#4D5566'
       }
     },
     fontFamily: {
       text: ['Work Sans', 'sans-serif'],
-    },
-    backgroundImage: {
-      'gradient-radial': 'radial-gradient(circle, var(--tw-gradient-stops))',
     },
   },
   plugins: [CustomStyle],
