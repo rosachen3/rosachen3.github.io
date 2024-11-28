@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3334c3b.css",
-    "main.js": "/static/js/main.89f41c82.js",
-    "static/js/453.0a36081d.chunk.js": "/static/js/453.0a36081d.chunk.js",
-    "static/media/girl-with-phone.png": "/static/media/girl-with-phone.b9931221399217994a62.png",
-    "static/media/girl-wave-bye.png": "/static/media/girl-wave-bye.b1413c9c903c7386f083.png",
-    "static/media/portfolioPreview.png": "/static/media/portfolioPreview.2537d9620c8dfa1c17fb.png",
-    "static/media/girl-with-hand-on-face.png": "/static/media/girl-with-hand-on-face.7728072826bc01030fd5.png",
-    "static/media/mcmaster.png": "/static/media/mcmaster.6f31f69201b94a2fd17a.png",
-    "static/media/Tenzies.png": "/static/media/Tenzies.74bc6a7f24409d00f225.png",
-    "static/media/RosaChen_Resume.pdf": "/static/media/RosaChen_Resume.d6aaf6a18e7fb6ad101d.pdf",
-    "static/media/codeninjas.png": "/static/media/codeninjas.c3fe56d1f1fe027a631a.png",
-    "static/media/tuex.png": "/static/media/tuex.85219c732fef1e1d6fce.png",
-    "static/media/Logo.png": "/static/media/Logo.16ef58ed0b49f0767966.png",
-    "static/media/canva.png": "/static/media/canva.aee5757600112d99f29d.png",
-    "static/media/java.png": "/static/media/java.4f03cd8e993125d11c20.png",
-    "static/media/reactjs.png": "/static/media/reactjs.4a8f58aeb4e04305b6fa.png",
-    "static/media/html.png": "/static/media/html.c4931782292f0260f963.png",
-    "static/media/matlab.png": "/static/media/matlab.2c6718fb2abed35e8851.png",
-    "index.html": "/index.html",
-    "main.a3334c3b.css.map": "/static/css/main.a3334c3b.css.map",
-    "main.89f41c82.js.map": "/static/js/main.89f41c82.js.map",
-    "453.0a36081d.chunk.js.map": "/static/js/453.0a36081d.chunk.js.map"
+    "main.css": "/rosachen3.github.io/static/css/main.a3334c3b.css",
+    "main.js": "/rosachen3.github.io/static/js/main.6af245d2.js",
+    "static/js/453.0a36081d.chunk.js": "/rosachen3.github.io/static/js/453.0a36081d.chunk.js",
+    "static/media/girl-with-phone.png": "/rosachen3.github.io/static/media/girl-with-phone.b9931221399217994a62.png",
+    "static/media/girl-wave-bye.png": "/rosachen3.github.io/static/media/girl-wave-bye.b1413c9c903c7386f083.png",
+    "static/media/portfolioPreview.png": "/rosachen3.github.io/static/media/portfolioPreview.2537d9620c8dfa1c17fb.png",
+    "static/media/girl-with-hand-on-face.png": "/rosachen3.github.io/static/media/girl-with-hand-on-face.7728072826bc01030fd5.png",
+    "static/media/mcmaster.png": "/rosachen3.github.io/static/media/mcmaster.6f31f69201b94a2fd17a.png",
+    "static/media/Tenzies.png": "/rosachen3.github.io/static/media/Tenzies.74bc6a7f24409d00f225.png",
+    "static/media/RosaChen_Resume.pdf": "/rosachen3.github.io/static/media/RosaChen_Resume.d6aaf6a18e7fb6ad101d.pdf",
+    "static/media/codeninjas.png": "/rosachen3.github.io/static/media/codeninjas.c3fe56d1f1fe027a631a.png",
+    "static/media/tuex.png": "/rosachen3.github.io/static/media/tuex.85219c732fef1e1d6fce.png",
+    "static/media/Logo.png": "/rosachen3.github.io/static/media/Logo.16ef58ed0b49f0767966.png",
+    "static/media/canva.png": "/rosachen3.github.io/static/media/canva.aee5757600112d99f29d.png",
+    "static/media/java.png": "/rosachen3.github.io/static/media/java.4f03cd8e993125d11c20.png",
+    "static/media/reactjs.png": "/rosachen3.github.io/static/media/reactjs.4a8f58aeb4e04305b6fa.png",
+    "static/media/html.png": "/rosachen3.github.io/static/media/html.c4931782292f0260f963.png",
+    "static/media/matlab.png": "/rosachen3.github.io/static/media/matlab.2c6718fb2abed35e8851.png",
+    "index.html": "/rosachen3.github.io/index.html",
+    "main.a3334c3b.css.map": "/rosachen3.github.io/static/css/main.a3334c3b.css.map",
+    "main.6af245d2.js.map": "/rosachen3.github.io/static/js/main.6af245d2.js.map",
+    "453.0a36081d.chunk.js.map": "/rosachen3.github.io/static/js/453.0a36081d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3334c3b.css",
-    "static/js/main.89f41c82.js"
+    "static/js/main.6af245d2.js"
   ]
 }
