@@ -1,6 +1,7 @@
 # Portfolio Website 😃
 
 Welcome to my Github Repository for my portfolio website! This website was creted using ReactJS and Tailwind. 
+https://rosachen3.github.io/
 
 ## Website Preview
 
